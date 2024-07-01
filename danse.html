@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club danse</title>
+    <link rel="icon" href="club.ico" type="image/png">
+    <link rel="stylesheet" href="danse.css">
+
+</head>
+<body>
+    <header class="header">
+        <img src="jodom@2x.png" alt="logo" width="150px" >
+        <nav class="nav">
+            <li class="accueil li" ><a href="home.php">Accueil</a></li>
+            <li class="li"><a href="">Actualités</a></li>
+            <li class="li"><a href="">Club</a></li>
+            <li class="li"><a href="" >Contacter</a></li>
+            <li class="li"><a href="connexion.php">Connexion</a></li>
+        </nav>
+        <div class="burger-container">
+          <div class="burger"></div>
+        </div>
+    </header>
+
+    <section class="section1">
+        <div class="div1"><span class="span1">FAIS</span> LE MOVE<span class="span2">.</span></div>
+    </section>
+
+    <section class="section5">
+        <h1 class="h5">Le club danse?</h1>
+        <div class="div9">
+            
+            <div class="div12">
+                <div class="div10">
+                    <p class="p4">Le club de danse de l'Institut UCAC ICAM est bien plus qu'un simple lieu où les étudiants se réunissent pour bouger sur de la musique. C'est un espace où les passions s'expriment, où les talents se révèlent et où les liens se tissent au rythme des mouvements. Depuis sa création, ce club incarne l'esprit de diversité et d'inclusion qui caractérise l'institut, offrant à chacun la possibilité de s'exprimer à travers la danse, indépendamment de son niveau de compétence ou de son bagage culturel.
+                    </p>
+                    
+                </div>
+                <div class="div11">
+                    <div class="div14">
+                        <p>Du Fun</p>
+
+                    </div>
+                    <div class="div15">
+                        <p>De La Move</p>
+
+
+                    </div>
+                    <div class="div16">
+                        <p>Du Groove</p>
+
+
+                    </div>
+    
+                </div>
+
+            </div>
+            
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <footer id="footer" class="footer">
+        <span class="copyrights">&copy; 2024 - Club</span>
+        <a href="#" class="conditions">Mentions-Légales</a>
+    </footer>
+    <script>
+      const burgerContainer = document.querySelector('.burger-container');
+      const navLinks = document.querySelector('.nav');
+
+      burgerContainer.addEventListener('click', () => {
+          burgerContainer.classList.toggle('active');
+          navLinks.classList.toggle('active');
+      })
+    </script>
+</body>
+</html>

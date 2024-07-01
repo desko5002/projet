@@ -1,0 +1,65 @@
+/* Reset des styles pour le corps et les marges */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style général pour le dashboard */
+.dashboard {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff; /* Blanc comme couleur de fond */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Ombre légère */
+}
+
+/* Style pour le titre h2 */
+.dashboard h2 {
+    color: #F3AC00; /* Orange comme couleur du texte */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style pour la table */
+.dashboard table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Style pour l'en-tête de la table */
+.dashboard th {
+    background-color: #F3AC00; /* Orange comme couleur de fond */
+    color: #fff; /* Texte en blanc */
+    padding: 10px;
+    text-align: left;
+}
+
+/* Style pour les cellules de la table */
+.dashboard td {
+    border: 1px solid #ddd; /* Bordure grise */
+    padding: 10px;
+}
+
+/* Style pour les boutons d'action */
+.dashboard button {
+    background-color: #F3AC00; /* Orange comme couleur de fond */
+    color: #fff; /* Texte en blanc */
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-right: 5px;
+    border-radius: 4px;
+}
+
+/* Style pour les boutons d'action au survol */
+.dashboard button:hover {
+    background-color: #F3AC00; /* Orange plus foncé */
+}
+@media (max-width: 701px){
+    .dashboard{
+        width: 100%;
+    }
+}

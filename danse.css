@@ -1,0 +1,435 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', serif;
+    scroll-behavior: smooth; 
+
+
+}
+
+body .header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+
+    border: 1.5px solid orange;
+    height: 12vh;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+    
+}
+
+body .header img{
+    margin: 30px;
+
+}
+
+body .header .nav{
+    margin: auto ;
+    list-style: none ;
+    display: flex ;
+}
+.header .nav  .accueil a{
+    margin: 20px ;
+    color: orange !important;
+    
+    
+    
+}
+
+body .header .nav .li a{
+    margin: 20px ;
+    color: black;
+    font-size: 17px;
+    font-weight: 300;
+    transition: background-color 0.3s ease;
+    font-weight: lighter;
+
+    text-decoration: none;
+}
+body .header .nav .li a:hover {
+    text-decoration-color: orange; /* Couleur de la ligne de soulignement */
+    color: orange;
+}
+
+.section1{
+    background-image: url(patricia-palma-OaAB-eYwmUU-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(1000px);
+    height: 500px;
+    max-width: 1200px;
+    width: auto;  
+    position: relative;
+    top: 80px;
+    border-radius: 30px;
+    margin: auto;
+    z-index: -1;
+    /* opacity: ; */
+
+}
+.section1 .div1{
+    font-size: 70px;
+    position: relative;
+    top: 200px;
+    color: white;
+    text-align: center;
+
+    
+}
+.span1{
+    color: orange;
+}
+.span2{
+    color: orange;
+}
+
+.section5{
+    display: flex;
+    flex-direction: column;
+}
+
+.section5 .h5{
+    font-size: 50px;
+    color: orange;
+    text-align: center;
+    width: auto;
+    position: relative;
+    top: 290px;
+}
+.section5 .div9{
+    height: 55vh;
+    background-color: orange;
+    width: 100%;
+    margin-top: 350px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.section5 .div9 .div12{
+    position: relative;
+    display: flex;
+    align-items: center;
+    /* background-color: black; */
+    height: 60vh;
+    margin-left: 300px;
+    top: 40px;
+
+}
+ .section5 .div9 .div12 .div10{
+    height: 45vh;
+    width: 350px;
+}
+.section5 .div9 .div12 .div10 .p4{
+    line-height: 1.8;
+    text-align: justify;
+    
+}
+.section5 .div9 .div12 .div11 .div14 {
+    position: relative;
+    width: 150px;
+    height: 100px;
+    background-color: #fff;
+    border: 1px solid orange;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(1000px);
+    background-image: url(danny-howe-bn-D2bCvpik-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.section5 .div9 .div12 .div11 .div14 p{
+    position: relative;
+    top: 70px;
+    font-weight: 700;
+
+}
+.section5 .div9 .div12 .div11 .div15 {
+    position: relative;
+    width: 150px;
+    height: 100px;
+    background-color: #fff;
+    border: 1px solid orange;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(1000px);
+    background-image: url(adam-whitlock-I9j8Rk-JYFM-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-right: 100px;
+    top: 8px;
+    margin-left: 200px;
+
+
+}
+.section5 .div9 .div12 .div11 .div15 p{
+    position: relative;
+    top: 70px;
+    font-weight: 700;
+
+}
+.section5 .div9 .div12 .div11 .div16 {
+    position: relative;
+    width: 150px;
+    height: 100px;
+    background-color: #fff;
+    border: 1px solid orange;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(1000px);
+    background-image: url(matty-adame-nLUb9GThIcg-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.section5 .div9 .div12 .div11 .div16 p{
+    position: relative;
+    top: 70px;
+    font-weight: 700;
+
+}
+.section5 .div9 .div12 .div11{
+    bottom: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px ;
+   
+
+
+    
+}
+/*
+.section5 .div9 .div10 .p4{
+    position: relative;
+    top: 20px;
+    line-height: 1.4;
+    text-align: justify;
+    width: 300px;
+    line-height: 1.8;
+} */
+/* .section5 .div9 .div10{
+    /* margin-left: 50px; 
+    position: relative;
+} */
+
+/* .section5 .div9 .div11{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background-color: #fff;
+    border: 2px solid orange;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(1000px);
+    background-image: url(vitaliy-nqyK3NuwC6E-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+} */
+
+
+
+
+
+
+
+.footer {
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #F9D378;
+    width: 100%;
+    position: absolute;
+    top: 2500px;
+}
+
+.copyrights {
+    padding-right: 20px;
+}
+
+.conditions {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+@media (max-width: 400px) {
+
+    .footer {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 735px) {
+    .section1 .div1{
+        margin-left: auto;
+
+    }
+    
+    
+    .header img{
+        width: 115px;
+    }
+
+    .header {
+        justify-content: space-between;
+    }
+
+    .burger-container {
+        width: 35px;
+        height: 30px;
+        position: relative;
+    }
+
+    .burger {
+        display: block;
+        height: 3px;
+        width: 30px;
+        background: black;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        transition: background 0.4s;
+
+
+
+    }
+
+    .burger-container.active .burger {
+        background: transparent;
+    }
+
+    .burger::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: black;
+        bottom: 8px;
+        transition: transform 0.4s,
+        bottom 0.4s,
+        background 0.4s;
+    }
+
+    .burger-container.active .burger::before {
+        bottom: 0;
+        transform: rotate(-45deg);
+        background: black;
+    }
+
+    .burger::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: black;
+        top: 8px;
+        transition: transform 0.4s,
+        top 0.4s background 0.4s;
+    }
+
+    .burger-container.active .burger::after {
+        top: 0;
+        transform: rotate(45deg);
+        background: black;
+    }
+
+    .nav {
+        position: absolute;
+        width: 100%;
+        height: 50vh;
+        background: white;
+        left: 0;
+        top: -50vh;
+        transition: top 0.4s ease-in-out;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        padding: 0 50px;
+    }
+
+    .nav.active {
+        top: 0;
+    }
+
+    .nav li {
+        margin: 0;
+    }
+
+    .nav a {
+        color: black;
+        font-size: 30px;
+    }
+    .footer{
+        top: 4050px;
+    }
+    .section5 .div9{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+    }
+    .section5 .div9 .div12{
+        display: flex;
+        flex-direction: column;
+    }
+    .section5{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .section5 .div9 .div12{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* background-color: black; */
+        height: 60vh;
+        justify-content: center;
+        margin-left: 12px;
+        
+        top: 40px;
+    
+    }
+    .section5 .div9 .div12 .div10{
+        text-align: center;
+        margin-left: 12px;
+
+    }
+    .section5 .div9 .div12 .div11{
+        width: 350px;
+        margin-top: 50px;
+        /* margin-left: 50px; */
+        margin-left: 6px;
+
+
+    }
+    .section5 .h5{
+        
+        top: 250px;
+    }
+
+
+    
+    
+}
+

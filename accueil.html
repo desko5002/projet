@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="accueil.css">
+    <link rel="icon" href="jodom_2x.ico" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <nav class="navbar">
+        <img src="logof.png" alt="logo"   width="90px" class="logo" >
+        <div class="nav-links">
+            <ul>
+                <li class="active"><a href="">Home</a></li>
+                <li><a href="#">Dance club</a></li>
+                <li><a href="#">Media club</a></li>
+                <li><a href="#">Football club</a></li>
+            </ul>
+        </div>
+        <img src="menuhamburger.png" alt="menu hamburger" class="menu-hamburger">
+
+    </nav>
+    <main>
+        <h1 class="title">Dashboard</h1>
+        <div class="info-data">
+            <div class="card">
+                <div class="head">
+                    <div>
+                        <h2>1500</h2>
+                        <p>Traffic</p>
+                    </div>
+                    <box-icon name='trending-up' class="icon"></box-icon>
+                </div>
+                <span class="progress" data-value="50"></span>
+                <span class="label">50%</span>
+            </div>
+            <div class="card">
+                <div class="head">
+                    <div>
+                        <h2>1500</h2>
+                        <p>Traffic</p>
+                    </div>
+                    <box-icon name='trending-up' class="icon"></box-icon>
+                </div>
+                <span class="progress" data-value="50"></span>
+                <span class="label">50%</span>
+            </div>
+            <div class="card">
+                <div class="head">
+                    <div>
+                        <h2>1500</h2>
+                        <p>Traffic</p>
+                    </div>
+                    <box-icon name='trending-up' class="icon"></box-icon>
+                </div>
+                <span class="progress" data-value="50"></span>
+                <span class="label">50%</span>
+            </div>
+            <div class="card">
+                <div class="head">
+                    <div>
+                        <h2>1500</h2>
+                        <p>Traffic</p>
+                    </div>
+                    <box-icon name='trending-up' class="icon"></box-icon>
+                </div>
+                <span class="progress" data-value="50"></span>
+                <span class="label">50%</span>
+            </div>
+        </div>
+    </main>
+    
+</body>
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js">
+        const menuHamburger = document.querySelector(".menu-hamburger");
+        const navLinks = document.querySelector(".nav-links");
+        menuHamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('mobile-menu');
+        });
+</script>
+
+</html>
